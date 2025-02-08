@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        background-color: rgb(19, 17, 17);
+      }
+      h2 {
+        margin-top: 20px;
+        font-weight: 700;
+        color: red;
+      }
+      .para {
+        color: white;
+        font-size: 15px;
+      }
+      .title-container {
+        display: flex;
+        gap: 10px;
+        align-items: center;
+        justify-content: center;
+      }
+      .container {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        text-align: center;
+        /* background-color: red; */
+      }
+      .title-container {
+        display: flex;
+        flex-direction: column;
+      }
+      .card-container {
+        padding-left: 200px;
+        margin-top: 10px;
+        text-align: center;
+        display: flex;
+        gap: 50px;
+      }
+      .card {
+        box-shadow: 20px;
+        border-radius: 20px;
+      }
+      .card-title {
+        font-weight: 700;
+      }
+      .btn {
+        /* background-color: orange; */
+        border: 2px solid red;
+        /* border: none; */
+        color: white;
+        font-weight: 600;
+        margin-top: 20px;
+        border-radius: 10px;
+      }
+      .card-price {
+        margin-top: 20px;
+        margin-bottom: 30px;
+        font-size: 30px;
+        padding: 10px;
+        background-color: #373434;
+        /* border: 2px solid; */
+        border-radius: 20px;
+      }
+      .card-text {
+        font-size: 15px;
+        font-weight: 600;
+      }
+      .card-title {
+        color: white;
+      }
+      .card-list {
+        list-style-type: none;
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+        /* text-align: center; */
+        align-items: flex-start;
+      }
+      .card-list li {
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        color: white;
+      }
+      .badge {
+        position: absolute;
+        background-color: rgb(227, 192, 19);
+        padding: 8px;
+        top: -10px;
+        left: 100px;
+        border-radius: 20px;
+      }
+      .card-1 {
+        background-color: #1f1f1f;
+        border-color: #c1bbbb;
+        cursor: pointer;
+        transition: scale 0.2s ease-in-out;
+      }
+      .card-1:hover {
+        scale: 1.1;
+      }
+      .btn-card-1 {
+        background-color: #1f1f1f;
+        color: red;
+        width: 100%;
+      }
+      .btn-card-1:hover {
+        background-color: red;
+        color: white;
+        border: none;
+      }
+      .card-2 {
+        background-color: #332722;
+        border-color: #bc471f;
+        cursor: pointer;
+        transition: scale 0.2s ease-in-out;
+      }
+      .card-2:hover {
+        scale: 1.1;
+      }
+      .btn-card-2 {
+        background-color: #332722;
+        width: 100%;
+        color: red;
+      }
+      .btn-card-2:hover {
+        background-color: red;
+        color: white;
+        border: none;
+      }
+      .card-3 {
+        background-color: #2e2c28;
+        border-color: yellow;
+        cursor: pointer;
+        transition: scale 0.2s ease-in-out;
+      }
+      .card-3:hover {
+        scale: 1.1;
+      }
+      .btn-card-3 {
+        background-color: #242424;
+        color: yellow;
+        width: 100%;
+        border-color: yellow;
+      }
+      .btn-card-3:hover {
+        background-color: yellow;
+        color: black;
+        border: none;
+      }
+    </style>
+    <title>Chai Patti Pricing</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="child">
+        <h2 class="title-container">
+          <img src="./assets/chaicodelogo.png" width="50" height="50" alt="" />
+          Chai Patti Pricing
+          <p class="para">When wellnesss meets strength</p>
+        </h2>
+      </div>
+
+      <div class="card-container">
+        <div class="card card-1" style="width: 18rem">
+          <div class="card-body">
+            <h5 class="card-title">Basic</h5>
+
+            <p class="card-title card-price">
+              <span style="color: red"> ₹999 </span>
+              <br />
+              <span class="card-text">Monthly</span>
+            </p>
+
+            <ul class="card-list">
+              <li>
+                <img
+                  src="./assets/right.svg"
+                  style="filter: invert(100%)"
+                  alt=""
+                  width="20"
+                  height="20"
+                />Basic Equipment Access
+              </li>
+              <li>
+                <img
+                  src="./assets/right.svg"
+                  style="filter: invert(100%)"
+                  alt=""
+                  width="20"
+                  height="20"
+                />Guided Workout Plan
+              </li>
+              <li>
+                <img
+                  src="./assets/right.svg"
+                  style="filter: invert(100%)"
+                  alt=""
+                  width="20"
+                  height="20"
+                />Locker Facility
+              </li>
+              <li style="display: flex; align-items: center">
+                <img
+                  src="./assets/cross.png"
+                  style="filter: invert(20%)"
+                  alt=""
+                  width="20"
+                  height="20"
+                /><span style="color: #3f3f3f"> Personal Training </span>
+              </li>
+            </ul>
+
+            <a href="#" class="btn btn-primary btn-card-1"
+              >Start your Journey</a
+            >
+          </div>
+        </div>
+
+        <div class="card card-2" style="width: 18rem">
+          <span class="badge">Most Popular</span>
+          <div class="card-body">
+            <h5 class="card-title" style="padding-top: 10px">Premium</h5>
+
+            <p class="card-title card-price">
+              <span style="color: red"> ₹1999 </span>
+              <br />
+              <span class="card-text">Monthly</span>
+            </p>
+
+            <ul class="card-list">
+              <li>
+                <img
+                  src="./assets/right.svg"
+                  style="filter: invert(100%)"
+                  alt=""
+                  width="20"
+                  height="20"
+                />
+                24/7 Gym Access
+              </li>
+              <li>
+                <img
+                  src="./assets/right.svg"
+                  style="filter: invert(100%)"
+                  alt=""
+                  width="20"
+                  height="20"
+                />Personal Training (2x/week)
+              </li>
+              <li>
+                <img
+                  src="./assets/right.svg"
+                  style="filter: invert(100%)"
+                  alt=""
+                  width="20"
+                  height="20"
+                />Nutrition Guide
+              </li>
+              <li>
+                <img
+                  src="./assets/right.svg"
+                  style="filter: invert(100%)"
+                  alt=""
+                  width="20"
+                  height="20"
+                />Group Classes
+              </li>
+            </ul>
+
+            <a href="#" class="btn btn-primary btn-card-2">Become a Warriot</a>
+          </div>
+        </div>
+
+        <div class="card card-3" style="width: 18rem">
+          <div class="card-body">
+            <h5 class="card-title">Family</h5>
+
+            <p class="card-title card-price">
+              <span style="color: yellow"> ₹3999 </span>
+              <br />
+              <span class="card-text">Monthly</span>
+            </p>
+
+            <ul class="card-list">
+              <li>
+                <img
+                  src="./assets/right.svg"
+                  style="filter: invert(100%)"
+                  alt=""
+                  width="20"
+                  height="20"
+                />All Warrior Benefits
+              </li>
+              <li>
+                <img
+                  src="./assets/right.svg"
+                  style="filter: invert(100%)"
+                  alt=""
+                  width="20"
+                  height="20"
+                />Daily Personal Training
+              </li>
+              <li>
+                <img
+                  src="./assets/right.svg"
+                  style="filter: invert(100%)"
+                  alt=""
+                  width="20"
+                  height="20"
+                />Custom Meal Plans
+              </li>
+              <li>
+                <img
+                  src="./assets/right.svg"
+                  style="filter: invert(100%)"
+                  alt=""
+                  width="20"
+                  height="20"
+                />Recovery Spa Access
+              </li>
+            </ul>
+
+            <a href="#" class="btn btn-primary btn-card-3">Lead the pack</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

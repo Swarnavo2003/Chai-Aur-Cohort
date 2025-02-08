@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Poppins&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: rgb(12, 12, 12);
+  color: white;
+  font-family: "Outfit", serif;
+}
+
+.main-container {
+  padding: 50px;
+}
+
+.sections-container {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.sections-container > div {
+  /* border: 2px solid white; */
+  border-radius: 20px;
+  position: relative;
+}
+
+.sections-container > div:hover .section-image {
+  cursor: pointer;
+  transform: scale(1.1); /* Scales up the card on hover */
+  transition: transform 0.3s ease; /* Smooth transition */
+}
+
+.section-image {
+  overflow: hidden;
+  border-radius: 20px;
+}
+
+.section-para {
+  position: absolute;
+  bottom: 0px;
+  left: -20px;
+  font-size: 120px;
+  background-color: rgba(0, 0, 0, 0); /* Transparent background */
+  color: white;
+}

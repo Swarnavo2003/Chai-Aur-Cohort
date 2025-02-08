@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        height: 100vh;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      div {
+        height: 300px;
+        width: 400px;
+      }
+      form {
+        border: 2px solid black;
+        padding: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <form action="">
+        <label for="phone">Phone Number</label>
+        <input
+          type="tel"
+          title="phone"
+          id="phone"
+          pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+          required
+        />
+        <br />
+        <br />
+
+        <label for="content">Additional Content</label>
+        <textarea name="content" title="content" id="content"></textarea>
+        <br />
+        <br />
+
+        <label for="password">Password</label>
+        <input
+          type="password"
+          title="password"
+          id="password"
+          pattern="[0-9]{8}"
+        />
+      </form>
+    </div>
+  </body>
+</html>
