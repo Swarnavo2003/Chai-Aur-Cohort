@@ -21,20 +21,9 @@ This repository tracks my journey in **Chai-Aur-Cohort**, including weekly progr
 
 ```
 Chai-Aur-Cohort/
-│── Week-1/
-│   ├── Live
-│   ├── Assignments/
-│── Week-2/
-│   ├── Live
-│   ├── Assignments/
-│── Week-3/
+│── Week-[Week Number]/
 │   ├── Live/
-│   ├── Assignments/
-│── Week-4/
-│   ├── Live/
-│   ├── Assignments/
-│── Week-5/
-│   ├── Live/
+│   ├── Blogs/
 │   ├── Assignments/
 ```
 
