@@ -1,4 +1,4 @@
-# 📚 Week 1 Assignments
+# 📚 Week 1 Blogs
 
 ## ✅ Completed Assignments
 
