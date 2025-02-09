@@ -8,7 +8,7 @@ This repository tracks my journey in **Chai-Aur-Cohort**, including weekly progr
 | ------ | -------------------------------------- |
 | Week 1 | Introduction To Web                    |
 | Week 2 | Mastering HTML And CSS(Upto Flexbox)   |
-| Week 3 | More CSS With Grid CSS Libraries       |
+| Week 3 | More CSS With Grid And CSS Libraries   |
 | Week 4 | Introduction To JavaScript(Upto Loops) |
 | Week 5 | Arrays And Objects                     |
 | ...    | ...                                    |
