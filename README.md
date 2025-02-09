@@ -8,7 +8,6 @@ This repository tracks my journey in **Chai-Aur-Cohort**, including weekly progr
 | ------ | -------------------------------------- |
 | Week 1 | Introduction To Web                    |
 | Week 2 | Mastering HTML And CSS(Upto Flexbox)   |
-| Week 3 | More CSS With Grid And                 |
 | Week 3 | More CSS With Grid CSS Libraries       |
 | Week 4 | Introduction To JavaScript(Upto Loops) |
 | Week 5 | Arrays And Objects                     |
@@ -28,9 +27,9 @@ Chai-Aur-Cohort/
 
 I will be adding useful links, notes, and extra materials that I find helpful throughout the cohort.
 
-- 📌 [Resource 1](https://developer.mozilla.org/en-US/docs/Web/HTML)
-- 📌 [Resource 2](https://developer.mozilla.org/en-US/docs/Web/CSS)
-- 📌 [Resource 3](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+- 📌 [Resource 1(HTML)](https://developer.mozilla.org/en-US/docs/Web/HTML)
+- 📌 [Resource 2(CSS)](https://developer.mozilla.org/en-US/docs/Web/CSS)
+- 📌 [Resource 3(JS)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 
 ## 🚀 Goals
 
