@@ -31,7 +31,6 @@ if (!Array.prototype.myFilter) {
 }
 
 const arr = [1, 2, 3, 4, 5, 6];
-
 // Error: .forEach function does not exist on arr variable
 // Real Signature ko samjho
 
