@@ -1,0 +1,143 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", "Gill Sans", serif;
+  background-color: rgb(29, 32, 48);
+  display: flex;
+  justify-items: center;
+  /* align-items: center; */
+  width: 100vw;
+  height: 100vh;
+}
+
+.container {
+  width: 100%;
+  border: 2px solid white;
+  background-color: rgb(6, 11, 40);
+  border-radius: 20px;
+  color: beige;
+  padding: 30px;
+  margin: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.column-container {
+  width: 100%;
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.left-column {
+  background: rgb(16, 20, 50);
+  width: 40%;
+  padding: 20px;
+  height: 550px;
+  border-radius: 20px;
+  border: 1px solid;
+}
+
+.left-column h2 {
+  font-weight: bolder;
+  font-size: xx-large;
+  padding: 20px;
+}
+
+.left-column label {
+  padding: 10px 10px;
+  font-weight: bolder;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.left-column input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+  border: none;
+  font-weight: bold;
+  font-size: smaller;
+}
+
+.starContainer {
+  margin: 0px 10px 0px 10px;
+}
+
+.star {
+  font-size: 24px;
+  cursor: pointer;
+  color: gray;
+}
+.star.selected {
+  color: gold;
+}
+
+.left-column textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: medium;
+}
+
+.reviewbtn {
+  padding: 5px;
+  margin: 0px 10px;
+  border-radius: 10px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  background-color: blueviolet;
+  color: white;
+  cursor: pointer;
+}
+
+.right-column {
+  background: rgb(16, 20, 50);
+  width: 60%;
+  padding: 20px;
+  max-height: 550px;
+  overflow-y: auto;
+  border-radius: 20px;
+  border: 1px solid;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.card-contain {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.card {
+  border: 1px solid white;
+  color: white;
+  font-size: small;
+  padding: 20px;
+  /* margin: 20px; */
+  border-radius: 10px;
+}
+.card h2 {
+  padding: 10px 10px 10px 10px;
+}
+
+.card p {
+  font-weight: bold;
+}
+
+.card-container {
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.card-container span {
+  font-weight: bolder;
+}

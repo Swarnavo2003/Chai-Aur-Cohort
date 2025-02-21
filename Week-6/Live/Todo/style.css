@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.heading {
+  font-size: 50px;
+  font-weight: 100px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+input {
+  height: 40px;
+  width: 250px;
+  padding: 20px 10px 20px 20px;
+  border-radius: 20px 0px 0px 20px;
+}
+
+.add-button {
+  height: 45px;
+  width: 50px;
+  border-radius: 0px 20px 20px 0px;
+  background-color: blue;
+  font-size: medium;
+  font-weight: bold;
+  color: white;
+  cursor: pointer;
+}
+
+.edit-button {
+  height: 20px;
+  width: 60px;
+  border-radius: 20px;
+  background-color: blue;
+  padding: 15px;
+  font-weight: bold;
+  color: white;
+  cursor: pointer;
+  display: flex;
+  justify-items: center;
+  align-items: center;
+}
+
+.delete-button {
+  height: 20px;
+  width: 60px;
+  border-radius: 20px;
+  padding: 15px;
+  background-color: red;
+  font-weight: bold;
+  color: white;
+  cursor: pointer;
+  display: flex;
+  justify-items: center;
+  align-items: center;
+}
+
+.save-button {
+  height: 20px;
+  width: 60px;
+  border-radius: 20px;
+  background-color: green;
+  padding: 15px;
+  font-weight: bold;
+  color: white;
+  cursor: pointer;
+  display: flex;
+  justify-items: center;
+  align-items: center;
+}
+
+ul {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  list-style: none;
+}
+
+ul li {
+  border: 2px solid;
+  width: 50vw;
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  font-size: large;
+  font-weight: bolder;
+}
+
+ul li input {
+  height: 20px;
+  width: 150px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+#remove-all-todos {
+  padding: 10px;
+  border-radius: 10px;
+  color: white;
+  font-weight: bold;
+  width: 200px;
+  background-color: blue;
+  cursor: pointer;
+}

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Review Collector</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Review Collector</h1>
+
+      <div class="column-container">
+        <!-- Left column -->
+        <div class="left-column">
+          <h2>Your Review</h2>
+
+          <label for="reviewer-name">Name</label><br />
+          <input type="text" id="reviewer-name" placeholder="Your name" /><br />
+
+          <label for="review-title">Review Title</label><br />
+          <input
+            type="text"
+            id="review-title"
+            placeholder="Your review title"
+          /><br />
+
+          <div id="star-container" class="starContainer">
+            <span class="star" data-value="1">★</span>
+            <span class="star" data-value="2">★</span>
+            <span class="star" data-value="3">★</span>
+            <span class="star" data-value="4">★</span>
+            <span class="star" data-value="5">★</span>
+          </div>
+          <br />
+
+          <label for="review-description">Review Description</label><br />
+          <textarea
+            id="review-description"
+            placeholder="Write your review here"
+            rows="10"
+          ></textarea>
+
+          <button class="reviewbtn" id="review-button">Add Review</button>
+        </div>
+
+        <!-- Right column -->
+        <div class="right-column">
+          <ul class="card-contain">
+            <li class="card">
+              <h2>ChaiCode Cohort🥰</h2>
+              <p>
+                Joining the ChaiCode Cohort has been the best decision of my
+                life. It's an absolute game-changer. The hands-on approach to
+                solving each and every problem in a beginner-friendly manner is
+                just outstanding. Just loving the experience and am honored to
+                be tutored by great teachers like Hitesh Sir and Piyush Sir.🔥
+              </p>
+              <div id="star-container" class="starContainer">
+                <span class="star selected" data-value="1">★</span>
+                <span class="star selected" data-value="2">★</span>
+                <span class="star selected" data-value="3">★</span>
+                <span class="star selected" data-value="4">★</span>
+                <span class="star selected" data-value="5">★</span>
+              </div>
+              <div class="card-container">
+                <span>~Swarnabha Majumder</span>
+                <span>20/02/2025</span>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
